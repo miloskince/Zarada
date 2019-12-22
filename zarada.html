@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="zarada.css">
+    <title>Mesecna Zarada</title>
+</head>
+<body>
+    <nav id="nav">
+        <select id="select">
+            <option id="prihod" value="prihod">Prihod</option>
+            <option id="rashod" value="rashod">Rashod</option>
+        </select>
+        <input type="text" id="opis" placeholder="Uneti Opis">
+        <input type="text" id="iznos" placeholder="Uneti Iznos">
+        <button id="btn">Unesi</button>
+    </nav>
+    <div class="container">
+        <span>DOSTUPAN BUDZET U NOVEMBRU 2019 JE :</span>
+        <span id="container"></span>
+    </div>
+    <section class="section-counter">
+        <div>
+            <span id="prihodi-span" class="prihodi-span">PRIHODI SUMA:</span>
+            <span id="prihodi-counter" class="prihodi-span">0</span>
+        </div>
+        <div>
+            <span id="rashodi-span" class="rashodi-span">:RASHODI SUMA</span>
+            <span id="rashodi-procenat" class="rashodi-span"></span>
+            <span id="rashodi-counter" class="rashodi-span">0</span>
+        </div>
+    </section>
+    <section class="section">
+        <div id="prihodi" class="prihodi">
+            
+        </div>
+        <div id="rashodi" class="rashodi">
+            
+        </div>
+    </section>
+<script src="zarada.js"></script>   
+</body>
+</html>
